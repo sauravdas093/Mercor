@@ -11,7 +11,7 @@
     Supports JSON responses for easy integration with other systems
 ##Installation
     To run the Clothing Item Recommender locally, follow these steps:
-    Clone the repository : git clone https://github.com/yourusername/clothing-item-recommender.git
+    Clone the repository.
     Install the required dependencies or the packages essential for the project: pip install -r requirements.txt
     Download and preprocess the necessary data or the csv file attached with this document for the machine learning model.
     Train the machine learning model.
