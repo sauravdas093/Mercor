@@ -1,7 +1,7 @@
 # Mercor_Project
     Clothing Item Recommender System for Mercor
 ##Overview
-    The goal of this project is to create a machine learning model capable of receiving text describing a clothing item and returning a         ranked list of links to similar items from different websites. This project aims to provide users with personalized recommendations for     clothing items based on their descriptions.
+    The goal of this project is to create a machine learning model capable of receiving text describing a clothing item and returning a       ranked list of links to similar items from different websites. This project aims to provide users with personalized recommendations       for clothing items based on their descriptions.
 ##Features
     Accepts text input describing a clothing item in json format
     Utilizes a machine learning model for similarity analysis using cosine similarity
