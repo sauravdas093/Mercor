@@ -22,7 +22,7 @@
     Push the Docker image to the Google Container Registry.
     Deploy the container to Google Cloud Run.
     Access the deployed application.
-##Authors
+##Author
     Saurav Das - sauravdas093@gmail.com
 ##Acknowledgments
     I would like to thank Surya Sir for giving me the opportunity to work in this project.
