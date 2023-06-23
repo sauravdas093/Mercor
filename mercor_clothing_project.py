@@ -73,25 +73,3 @@ def word_embedding(input_text):
 
     # Train Word2Vec model (example)
     model = Word2Vec(sentences=[tokens2], min_count=1, vector_size=100)
-
-    # Extract features using average word vectors
-    def extract_features(text):
-        tokens = word_tokenize(text.lower())  # Preprocess text
-        vectors = [model.wv[word] for word in tokens if word in model.wv]  # Get word vectors
-        if vectors:
-            avg_vector = sum(vectors) / len(vectors)  # Calculate average vector
-            return avg_vector
-        else:
-            return None
-
-    # Convert vector back to text
-    def vector_to_text(vector):
-        text = text_vector_mapping.get(tuple(vector), "Vector representation not found.")
-        return text
-
-    # Example usage
-    # features1 = extract_features(text1)
-    features2 = extract_features(text2)
-
-    # text_vector_mapping[tuple(features1)] = text1
-    text_vector_mapping[tuple(features2)] = text2
